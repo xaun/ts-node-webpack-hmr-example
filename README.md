@@ -2,8 +2,14 @@
 
 ## Usage
 
+Load deps & create an initial build 
 ```bash
 yarn
+webpack
+```
+
+Watch for changes & server the bundle
+```bash
 webpack --watch & node build/bundle.js
 ```
 
